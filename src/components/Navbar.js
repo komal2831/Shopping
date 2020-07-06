@@ -1,19 +1,34 @@
-import React, {Component} from 'react'
-import {Link} from 'react-router-dom';
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { ButtonContainer } from './Button';
 
-class Navbar extends Component{
-    render(){
-        return(
+class Navbar extends Component {
+    render() {
+        return (
             <Nav className="navbar navbar-expand-sm px-sm-5">
                 <Link to='/'>
-                    <img src='/img/logo.png' alt="" className="navbar-brand" />    
+                    <img src='/img/logo.png' alt="" className="navbar-brand" style={{width:"110px",height:"50px"}} />
                 </Link>
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5">
-                        <Link to='/' className="nav-link text-light ">
-                            Products
+                        <Link to='/Mobiles' className="nav-link text-light ">
+                            Mobiles
+                        </Link>
+                    </li>
+                    <li className="nav-item ml-5">
+                        <Link to='/Men' className="nav-link text-light ">
+                            Men
+                        </Link>
+                    </li>
+                    <li className="nav-item ml-5">
+                        <Link to='/Men' className="nav-link text-light ">
+                            Women
+                        </Link>
+                    </li>
+                    <li className="nav-item ml-5">
+                        <Link to='/Men' className="nav-link text-light ">
+                            Kids
                         </Link>
                     </li>
                 </ul>

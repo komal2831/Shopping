@@ -31,7 +31,7 @@ class Details extends Component {
                                     </h4>
                                     <h4 className="text-blue">
                                         <strong>
-                                            price: <span>$</span>
+                                            price: <span><i className="fa fa-rupee-sign" /></span>
                                             {price}
                                         </strong>
                                     </h4>
