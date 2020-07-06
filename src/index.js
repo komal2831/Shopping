@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-//import App from './App';
 import {BrowserRouter as Router} from 'react-router-dom';
 import { ProductProvider } from './Context';
 import * as serviceWorker from './serviceWorker';
-import Login from './login';
+import LoginPage from './LoginPage'
 
 
 
 ReactDOM.render(
   <ProductProvider>
     <Router>
-      <Login />
+      <LoginPage />
     </Router>
   </ProductProvider>,
   document.getElementById('root')

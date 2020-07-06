@@ -40,9 +40,17 @@ body{
   color: white !important;
 }
 
-.cart-icon
-{
+.cart-icon{
   cursor: pointer;
   font-size: 1.2rem;
   color: var(--mainYellow);
+}
+
+.text-login{
+margin-left: 115px;
+margin-bottom: 5px;
+}
+
+.check{
+  margin-left: 50px;
 }
