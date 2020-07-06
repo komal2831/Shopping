@@ -16,7 +16,7 @@ import DirectLink from './components/SiteInfoAndDetail/DirectLink';
 
 const FrontPage = () => (
   <div>
-    <ProductSample />
+    {/* <ProductSample /> */}
     <Connect />
     <DirectLink />
     <ProductDetails />
